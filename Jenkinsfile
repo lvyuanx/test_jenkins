@@ -1,7 +1,5 @@
 pipeline{
-    agent{
-        label "测试Jenkins"
-    }
+    agent any
     stages{
         stage("A"){
             steps{
